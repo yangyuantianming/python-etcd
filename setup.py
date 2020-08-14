@@ -10,7 +10,7 @@ version = '0.4.3'
 
 # Dnspython is two different packages depending on python version
 if sys.version_info[0] == 2:
-    dns = 'dnspython'
+    dns = 'dnspython==1.16.0'
 else:
     dns = 'dnspython3'
 
